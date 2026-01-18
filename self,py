@@ -1,0 +1,30 @@
+class Person: 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+p1 = Person("Alice", 30)
+p2 = Person("Raian", 20)
+p3 = Person("Nala", 32)
+
+class Flower:
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+f1 = Flower("Rose", "Turquoise")
+f2 = Flower("Lily", "Pink")
+
+class Barbie:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age 
+        
+b1 = Barbie("London",23)
+b2 = Barbie("Stacy", 50)
+    
+
+print(p1.name)
+print(p2.name)
+print(p3.age)
+print(f1.color)
+print(b2.age)
